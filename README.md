@@ -60,7 +60,7 @@ To use the following webpage:
 
 ## Screenshot
 
-C:\Users\kenne\bootcamp\Carsons-code-quiz\assets\images\Screenshot (6).png
+![Screenshot (6)](https://user-images.githubusercontent.com/114614370/200434447-e6d00d03-88d4-46e2-b94d-9869b0f355c2.png)
 
 ## License 
 
