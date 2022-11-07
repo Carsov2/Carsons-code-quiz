@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    margin: 5px 10px;
+    text-align: center;
+    font-size: 150%;
+}
+/* Removes bullet points from list items */
+ul {
+    list-style: none;
+}
+
+/* Positioning for cards */
+.cards {
+    position: relative;
+}
+/* Start page styling */
+#start {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* Start Quiz button styling */
+#start button {
+    margin-top: 20px;
+    text-align: center;
+}
+/* Styling for all the question cards */
+.question {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* Styling for all question headers */
+h2 {
+    padding: 10px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* Styling for Correct/Incorrect pop up */
+h3 {
+    margin: 10px;
+    font-size: 150%;
+    width: 90%;
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: grey;
+    border-top: 2px solid gray
+}
+/* Question button styling */
+button {
+    margin: 1px;
+    padding: 3px 5px;
+    height: 50px;
+    width: 200px;
+    font-size: 125%;
+    text-align: left;
+    border-radius: 8px;
+    border: 2px solid rgb(53, 99, 216);
+    color: white;
+    background-color: rgb(0, 32, 101);
+}
+/* Will change the button color when you hover over it with your mouse */
+button:hover {
+    background-color: rgb(4, 49, 146);
+}
+/* Final page styling */
+#final {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Final button styling */
+#final button {
+    width: 100px;
+    height: 25px;
+    font-size: 100%;
+    text-align: center;
+}
+/* Styling for scoreboard items */
+#scores {
+    color: white;
+    font-size: 120%;
+}
+/* Displays for all the questions so they can be toggled */
+#Q1 {
+    display:none;
+}
+
+#Q2 {
+    display:none;
+}
+
+#Q3 {
+    display:none;
+}
+
+#Q4 {
+    display:none;
+}
+
+#Q5 {
+    display:none;
+}
+
+#final {
+    display:none;
+}
+/* Final page text styling */
+#final p {
+    margin: 20px 0;
+    font-family: sans-serif;
+    font-size: 110%    
+}
+/* Initials input styling */
+#final label {
+    font-weight: bold;
+    font-style: italic;
+}
+/* Highscores page styling */
+#highscores {
+    display:none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* More leaderboard items styling */
+#highscores li {
+    font-family: sans-serif;
+    padding: 3px 0 0 10px;
+    background-color: rgba(0, 32, 101, 0.52);
+}
+/* Back and Clear Scores button styling */
+#highscores button {
+    width: 150px;
+    height: 35px;
+    font-size: 100%;
+    margin: 15px;
+    text-align: center;
+}
